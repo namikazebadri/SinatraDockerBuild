@@ -4,6 +4,6 @@ require 'sinatra'
 
 class App < Sinatra::Base
   get '/' do
-    'Hello Frank!'
+    'Hello Sinatra Docker build!'
   end
 end
